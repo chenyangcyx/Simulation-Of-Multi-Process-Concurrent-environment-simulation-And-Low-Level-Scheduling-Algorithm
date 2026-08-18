@@ -1,3 +1,5 @@
+
+
 # Simulation-Of-Multi-Process-Concurrent-environment-simulation-And-Low-Level-Scheduling-Algorithm
 
 操作系统必修实验：多进程并发环境模拟以及低级调度算法的仿真实现
@@ -61,7 +63,7 @@ PCB中基本的数据如下：
 
 进程编号（ProID）、进程优先数（Priority）、进程创建时间（InTimes）、进程状态（ProState）、进程运行时间（RunTimes）、进程包含的指令数目（ InstrucNum）、编号指令（ Instruc_ID ）、每条指令的状态标志（Instruc_State，0表示核心态、1表示用户态、2表示PV操作）、单指令运行时间（Instruc_Times）、进程当前状态（PSW）等信息。
 
-请求运行的并发进程个数随机产生5-10以内随机整数，即说明在该程序中，总共最少执行5个进程，最多执行10个进程，这些进程之间一定是并发执行的。
+请求运行的并发进程个数由用户输入5-10之间的整数确定，即说明在该程序中，总共最少执行5个进程，最多执行10个进程，这些进程之间一定是并发执行的。
 
 进程创建时间（InTimes）：程序运行从0开始计时，生成进程的时间间隔控制在1 分钟以内，需要保证出现进程并发情景。
 
